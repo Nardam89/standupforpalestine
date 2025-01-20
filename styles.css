@@ -47,7 +47,6 @@
   background-size: contain;
   background-repeat: repeat;
   background-position-x: center;
-  margin: -8px;
 }
 
 .title-flexbox {
@@ -111,7 +110,6 @@
 .separator {
   height: 30px;
   background-color: #e50025;
-  margin: -8px;
 }
 
 .logo_img {
