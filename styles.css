@@ -35,7 +35,6 @@
 
 .body {
   background-image: url(resources/img/keffiyeh_body.png);
-  height: 150px;
   background-size: contain;
   background-repeat: repeat;
   background-position-x: center;
