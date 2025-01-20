@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "Cocogoose";
+  src: url(resources/fonts/cocogoose_pro.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url(resources/fonts/cocogoose_pro_light.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cocogoose";
+  src: url(resources/fonts/cocogoose_pro_bold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(resources/fonts/Montserrat-Medium.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(resources/fonts/Montserrat-Bold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.body {
+  background-image: url(resources/img/keffiyeh_body.png);
+  height: 150px;
+  background-size: contain;
+  background-repeat: repeat;
+  background-position-x: center;
+  margin: 0;
+}
+
+.navbar {
+  background-image: url(resources/img/keffiyeh_header.png);
+  height: 150px;
+  background-size: contain;
+  background-repeat: repeat;
+  background-position-x: center;
+  margin: -8px;
+}
+
+.title-flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.title-header {
+  color: white;
+  font-family: "Cocogoose";
+  font-weight: 600;
+  line-height: 0px;
+  margin: 30px 10px 25px 10px;
+  font-size: 50px;
+}
+
+.subtitle-header {
+  font-family: "Cocogoose";
+  font-weight: 200;
+  color: white;
+  font-size: 11.95px;
+  margin: 2px 14px;
+  text-align: center;
+}
+
+.highlight {
+  background-color: #222;
+  margin: 5px auto 0 0px;
+}
+
+.info-text {
+  font-family: "Cocogoose";
+  font-weight: 200;
+  color: white;
+  background-color: #222;
+  padding: 20px;
+  margin: 15px;
+}
+
+.info-number {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.title {
+  font-family: "Cocogoose";
+  font-size: large;
+  color: white;
+  text-align: center;
+  background-color: #222;
+  margin: 15px;
+}
+
+.separator {
+  height: 30px;
+  background-color: #e50025;
+  margin: -8px;
+}
+
+.logo_img {
+  max-width: 90px;
+  object-fit: contain;
+  margin: auto 10%;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: center;
+}
+
+.comedian-flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.comedian-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.comedian-highlight {
+  background-color: #222;
+  margin: 1px 0;
+}
+
+.comedian-text {
+  color: white;
+  font-family: "Cocogoose";
+  font-weight: 400;
+  line-height: 0px;
+  font-size: 15px;
+  margin: 10px 7px;
+}
+
+.date-header {
+  font-family: "Cocogoose";
+  font-weight: 400;
+  color: white;
+  font-size: 17px;
+  margin: 2px auto;
+  text-align: center;
+}
+
+.date-number {
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+
+.date-highlight {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  max-width: 293.3px;
+  margin: auto;
+}
+
+.buy-background {
+  background-color: #222;
+  height: 150px;
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.buy-button {
+  color: white;
+  background: none;
+  border: 1px solid white;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: "Cocogoose";
+  font-weight: 200;
+}
