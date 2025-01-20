@@ -174,7 +174,7 @@
 .buy-background {
   background-color: #222;
   height: 150px;
-  margin: 10px 0px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -190,4 +190,16 @@
   text-transform: uppercase;
   font-family: "Cocogoose";
   font-weight: 200;
+  text-decoration: none;
+}
+
+.disclaimer {
+  color: white;
+    font-family: "Cocogoose";
+    font-weight: 200;
+    font-size: 10px;
+    text-align: center;
+    background-color: #222;
+    padding: 0px 30px 15px 30px;
+    margin-top: 0px;
 }
