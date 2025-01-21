@@ -213,3 +213,17 @@
   font-weight: 400;
   padding: 0 3px 0 3px;
 }
+
+.house-img {
+  display: block;
+  margin: auto;
+  max-width: 60%;
+  border: 5px solid #222;
+}
+
+.address-highlight {
+  background-color: #222;
+  max-width: 293.3px;
+  margin: auto;
+  padding: 10px 0px;
+}
